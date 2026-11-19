@@ -1,0 +1,47 @@
+# ==============================================================================
+# .gitignore para ~/.gemini (Configuración portable de Antigravity CLI)
+# ==============================================================================
+
+# Entornos y binarios locales de Antigravity (se generan en cada instalación)
+antigravity/
+antigravity-cli/
+
+# Secretos, tokens y credenciales (estricto)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*token*
+*secret*
+*credential*
+*.id_rsa
+*.id_ed25519
+
+# Archivos de depuración, logs y temporales
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+
+# Caché de intérpretes y compiladores
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+
+# Archivos del sistema y de editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

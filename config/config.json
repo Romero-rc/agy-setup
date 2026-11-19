@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "swarm": {
+      "enabled": true
+    }
+  },
+  "userSettings": {
+    "remoteControlHostname": "rcms08-spectral-wave"
+  }
+}
